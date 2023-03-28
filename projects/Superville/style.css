@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+body{ 
+    padding-top: 30px;
+    padding-left:30px;
+    font-family: 'Comfortaa';
+}
+
+.LeftColumn {
+    display:flex;
+    height: 1000px;
+    width: 210px;
+    float: left;
+}
+
+.RightColumn {
+    width:76%;
+    height:20%;
+    float: left;
+}
+.Caption{
+    color:grey;
+}
+.Paragraph {
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
