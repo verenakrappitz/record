@@ -11,9 +11,10 @@ body{
 
 .LeftColumn {
     display:flex;
-    height: 1000px;
+    height: 20%;
     width: 210px;
     float: left;
+    display:inline;
 }
 
 .RightColumn {
@@ -21,12 +22,14 @@ body{
     height:20%;
     float: left;
 }
+
 .Caption{
     color:grey;
+    font-style: italic;
+    font-size:12px;
 }
 .Paragraph {
     padding-top: 20px;
-    padding-right: 100px;
-    padding-left: 100px;
     padding-bottom: 30px;
+    text-align: justify;
 }
